@@ -14,6 +14,9 @@ variable "azureRegion" {
     type = string
 }
 
+variable "sharedKey" {
+    type = string
+}
 
 provider "azurerm" {
   features {}
@@ -197,7 +200,7 @@ resource "azurerm_virtual_network_gateway_connection" "hub_to_spoke" {
   virtual_network_gateway_id      = azurerm_virtual_network_gateway.vnt-gwy.id
   peer_virtual_network_gateway_id = azurerm_virtual_network_gateway.vnt-gwy2.id
 
-  shared_key = "4v3ry53cr371p53c5h4r3dk3y"
+  shared_key = var.sharedKey
 }
 
 #### NIC
