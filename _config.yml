@@ -1,5 +1,5 @@
-theme: jekyll-theme-minimal
-mni
+theme: minimal-mistakes-jekyll
+
 
 
 name: Adam Dost - Understanding Azure Cloud Operations
@@ -18,4 +18,3 @@ footer:
     - label: LinkedIn
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/adamadost/"
-      
