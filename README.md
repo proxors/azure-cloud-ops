@@ -7,4 +7,8 @@ Various Terraform and architecture guidances when dealing with various scenarios
 
 #### whoami?
 
-I'm an Azure Cloud Solution's Architect @microsoft. My opinions are of my own and do not represent my employer. 
+I'm an Azure Cloud Solution's Architect @microsoft.
+
+##### Disclaimer
+
+My opinions are of my own and do not represent my employer.
