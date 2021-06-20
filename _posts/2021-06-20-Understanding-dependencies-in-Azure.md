@@ -65,13 +65,13 @@ resource "azurerm_network_interface" "NIC-01" {
 
 That network interface block can be easily copy/pasted multiple times to setup multiple VM's in the same subnet. This allows you to rapidly build out a blueprint of how you want the environment to look like within Azure.
 
-### OS Disk Storage
+### Data Disk Storage
 
 There are 4 tiers of managed disk storage inside of Azure today (Standard HDD,Standard SSD, Premium SSD's and Ultra Disk SSD's). Your cost scales with the IOPS requirements you have for the select VM. A Domain controller for a small organization may be best fit with a HDD while a SAP workload may be better off on a SSD. 
 
 ````terraform
-resource "azurerm_managed_disk" "example" {
-  name                 = "cloudops-disk-01"
+resource "azurerm_managed_disk" "COPS-DISK-01" {
+  name                 = "COPS-DISK-01"
   location             = "usgovvirginia"
   resource_group_name  = azurerm_resource_group.example.name
   storage_account_type = "Standard_LRS"
@@ -83,3 +83,59 @@ resource "azurerm_managed_disk" "example" {
   }
 }
 ````
+
+
+### VM Compute SKU
+
+Azure is home to a family of SKU's that can be mapped to the workload you're moving to the Cloud. Whether it's Memory optimized, Burstable or High Performance Compute there's a SKU for you. Once you have decided on the SKU family you can go ahead and deploy your compute resources with the DISK and NETWORK portion completed above. 
+
+````terraform
+resource "azurerm_virtual_machine" "VM" {
+  name                  = "VM-01"
+  location              = azurerm_resource_group.example.location
+  resource_group_name   = azurerm_resource_group.example.name
+  network_interface_ids = [azurerm_network_interface.NIC-01.id]
+  vm_size               = "Standard_DS1_v2"
+
+
+
+  storage_image_reference {
+    publisher = "Canonical"
+    offer     = "UbuntuServer"
+    sku       = "16.04-LTS"
+    version   = "latest"
+  }
+  storage_os_disk {
+    name              = "OS-DISK-01"
+    caching           = "ReadWrite"
+    create_option     = "FromImage"
+    managed_disk_type = "Standard_LRS"
+  }
+  
+  os_profile {
+    computer_name  = ""
+    admin_username = ""
+    admin_password = ""
+  }
+  os_profile_linux_config {
+    disable_password_authentication = false
+  }
+  tags = {
+    environment = "staging"
+  }
+}
+
+resource "azurerm_virtual_machine_data_disk_attachment" "DATA-DISK-01" {
+  managed_disk_id    = azurerm_managed_disk.COPS-DISK-01.id
+  virtual_machine_id = azurerm_virtual_machine.VM.id
+  lun                = "10"
+  caching            = "ReadWrite"
+}
+````
+
+
+### Deployment
+
+Leverag Azure CloudShell or your own AzCLI to authenticate and perform the deployement above but **ONLY** do the VM Deployment step after you've verified your network requirements and which subnet the VM in question will need to be located. By not deploying the compute resource you can easily move the NIC around and re-deploy the environment with little time in between!
+
+Good luck to all those starting in Azure!
