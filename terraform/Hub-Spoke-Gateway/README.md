@@ -11,8 +11,7 @@ As more companies look to migrate to the Cloud in phases they need to ensure con
 * Virtual Machine's (Only when we're ready!)
 
 
-Architecture
 
-![](terraform\Hub-Spoke-Gateway\HUB-SPOKE.PNG)
+![Architecture](terraform\Hub-Spoke-Gateway\HUB-SPOKE.PNG)
 
 
