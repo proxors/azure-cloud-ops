@@ -1,12 +1,21 @@
 theme: jekyll-theme-minimal
+mni
+
 
 name: Adam Dost - Understanding Azure Cloud Operations
 
 
 title: Azure Cloud Operations
 
-footer-links:
-  email: adamdost@microsoft.com
-  github: adamdost-msft  
-  linkedin: adamadost
-
+footer:
+  links:
+    - label: "E-Mail"
+      icon: "fas fa-envelope"
+      url: "adamdost@microsoft.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/adamdost-msft"
+    - label: LinkedIn
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/adamadost/"
+      
