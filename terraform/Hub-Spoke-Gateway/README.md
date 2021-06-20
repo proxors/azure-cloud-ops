@@ -13,5 +13,3 @@ As more companies look to migrate to the Cloud in phases they need to ensure con
 
 
 ![Architecture](./HUB-SPOKE.PNG)
-
-
