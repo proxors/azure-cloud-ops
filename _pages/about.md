@@ -1,10 +1,6 @@
 ---
-layout: page
-cta: newsletter
-title: About Me
 permalink: /about/
+title: "About"
 ---
 
-# Hi There!
-
-My name is Adam Dost and I'm a Sr. Cloud Solutions Architect @microsoft working to help unblock customers in their journey to leverage the Azure platform to complete their mission.
+Hey there. I'm still building this page out but if you want to talk just reach out to me @adamdost-msft
