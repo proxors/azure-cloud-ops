@@ -1,13 +1,8 @@
-## Azure Cloud Operations
-A public repo that contains various supplemental scripts and information for managing Cloud ops in Azure
-
-### What you'll find here
-
-Various Terraform and architecture guidances when dealing with various scenarios that I feel are best shared with the Azure Community. 
-
+## Cloud Ops Blog
+This site serves to help guide Azure Architects on their journey to Azure and share some lessons learned and what questions you should start asking.
 #### whoami?
 
-I'm an Azure Cloud Solution's Architect @microsoft.
+I'm an Azure Cloud Solution's Architect in @microsoft.
 
 ##### Disclaimer
 
