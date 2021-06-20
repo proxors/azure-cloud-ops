@@ -12,6 +12,6 @@ As more companies look to migrate to the Cloud in phases they need to ensure con
 
 
 
-![Architecture](terraform/Hub-Spoke-Gateway/HUB-SPOKE.PNG )
+![Architecture](./HUB-SPOKE.PNG)
 
 
