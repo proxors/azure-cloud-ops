@@ -1,8 +1,8 @@
-## CloudOps Blog
-This site serves to help guide Azure Architects on their journey to Azure and share some lessons learned and what questions you should start asking.
+## IT Blog
+This website serves to help keep track of learning topics.
 #### whoami?
 
-I'm an Azure Cloud Solution's Architect in @microsoft.
+Intro TBD.
 
 ##### Disclaimer
 
