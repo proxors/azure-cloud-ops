@@ -5,6 +5,6 @@ title: "About"
 
 # whoami?
 
-I'm an Azure Cloud Solution's Architect in @microsoft.
+TBD intro.
 
-My opinions are of my own and do not represent my employer. If you'd like to speak with me then send me a GitHub Message!
+The opinions written here are my own and do not represent those of my employer. Feel free to reach out!

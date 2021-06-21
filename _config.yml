@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: CloudOps
-email: adamd125@gmail.com
+title: TBD
+email: franzprowant@live.com
 description: >- # this means to ignore newlines until "baseurl:"
   One stop shop to talk about Azure and architecture!
-twitter_username: aadost1
-github_username: adamdost-microsoft
+twitter_username: purokusa
+github_username: proxors
 minimal_mistakes_skin: default
 search: true
 
@@ -56,35 +56,35 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Adam Dost"
+  name   : "Franz Prowant"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Just trying to resolve blockers for those who are trying to strive for success"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://cloud.adost.dev"
+      url: "TBD"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/aadost1"
+      url: "https://twitter.com/purokusa"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/adamdost-msft"
+      url: "https://github.com/proxors"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/adamadost/"    
+      url: "https://www.linkedin.com/in/franzprowant/"    
 
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/aadost1"
+      url: "https://twitter.com/purokusa"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/adamdost-msft"
+      url: "https://github.com/proxors"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/adamadost/"    
+      url: "https://www.linkedin.com/in/franzprowant/"    
 
 
 
