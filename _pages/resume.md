@@ -43,3 +43,9 @@ Press Relations Staff
 ###### Society for Promotion of Japanese Animation  
 July 2013 - July 2014  
 Web Development - Localizer (English to Spanish)
+
+
+## Hobbies
+* Traveling to Japan
+* Watching Formula 1 Races
+* Taking things apart to figure out how they work
