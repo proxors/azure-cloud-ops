@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   One stop shop to talk about Azure and architecture!
 twitter_username: purokusa
 github_username: proxors
-minimal_mistakes_skin: sunrise
+minimal_mistakes_skin: air
 search: true
 
 # Build settings
