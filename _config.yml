@@ -60,6 +60,9 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Learning new things everyday"
   links:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/purokusayade"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/proxors"
@@ -70,6 +73,9 @@ author:
 
 footer:
   links:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/purokusayade"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/proxors"
