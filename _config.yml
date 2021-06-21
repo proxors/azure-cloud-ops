@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Franz Prowant"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Learning new things everyday"
+  bio    : "First make it work, then make it pretty"
   links:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
