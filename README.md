@@ -6,4 +6,4 @@ B.S. in IT from George Mason University. Former TA for IT106 and IT206.
 
 ##### Disclaimer
 
-My opinions are of my own and do not represent my employer.
+The opinions written here are my own and do not represent those of my employer and/or associates.
