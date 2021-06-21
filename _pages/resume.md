@@ -15,16 +15,19 @@ Experience with:
 3. Customer Support
 4. Tour Guiding
 5. Translation/Interpretation (Japanese, English, Spanish)
-<br>
+<br>  
+  
 
 # Education
 B.S. in Information Technology - Information Security concentration
-<br>
+<br>  
+  
 
 # Certifications
 1. Azure Fundamentals (AZ-900)  
 2. JLPT N3 (2013)
-<br>
+<br>  
+  
 
 # Employment
 ###### George Mason University  
@@ -45,7 +48,8 @@ Press Relations Staff
 ###### Society for Promotion of Japanese Animation  
 July 2013 - July 2014  
 Web Development - Localizer (English to Spanish)
-<br>
+<br>  
+  
 
 ## Hobbies
 * Traveling to Japan
