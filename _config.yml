@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: TBD
+title: Learning IT with Franz
 email: franzprowant@live.com
 description: >- # this means to ignore newlines until "baseurl:"
-  One stop shop to talk about Azure and architecture!
+  Learning about IT
 twitter_username: purokusa
 github_username: proxors
 minimal_mistakes_skin: air
