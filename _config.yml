@@ -65,7 +65,7 @@ author:
       url: "https://www.fpro.dev"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/purokusa"
+      url: "https://twitter.com/proxors"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/proxors"
@@ -78,7 +78,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/purokusa"
+      url: "https://twitter.com/proxors"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/proxors"

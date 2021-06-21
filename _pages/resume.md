@@ -52,6 +52,7 @@ Web Development - Localizer (English to Spanish)
   
 
 ## Hobbies
+* Racing Simulators
 * Traveling to Japan
 * Watching Formula 1 Races
 * Taking things apart to figure out how they work
