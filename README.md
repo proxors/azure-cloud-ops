@@ -1,4 +1,4 @@
-## Cloud Ops Blog
+## CloudOps Blog
 This site serves to help guide Azure Architects on their journey to Azure and share some lessons learned and what questions you should start asking.
 #### whoami?
 
