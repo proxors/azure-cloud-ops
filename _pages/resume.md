@@ -25,21 +25,21 @@ B.S. in Information Technology - Information Security concentration
 2. JLPT N3 (2013)
 
 # Employment
-George Mason University  
+### George Mason University  
 August 2018 - July 2019  
 Graduate Teaching Assistant
 
 
-Norther Virginia Technology Council  
+### Norther Virginia Technology Council  
 January 2015 - December 2015  
 Capstone Project (Big Data sub-committee)
 
 
-Society for Promotion of Japanese Animation  
+### Society for Promotion of Japanese Animation  
 July 2014 - July 2015  
 Press Relations Staff
 
 
-Society for Promotion of Japanese Animation  
+### Society for Promotion of Japanese Animation  
 July 2013 - July 2014  
 Web Development - Localizer (English to Spanish)
