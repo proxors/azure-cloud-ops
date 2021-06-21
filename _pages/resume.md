@@ -16,7 +16,7 @@ B.S. in Information Technology - Information Security concentration
 
 
 # Certifications
-Azure Fundamentals (AZ-900)
+Azure Fundamentals (AZ-900)  
 JLPT N3 (2013)
 
 # Employment
